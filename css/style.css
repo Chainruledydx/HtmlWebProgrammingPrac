@@ -1,0 +1,42 @@
+@import "./reset.css";
+
+.main {
+  width: 100vw;
+  height: auto;
+  background-color: pink;
+}
+
+.main-option {
+  float: left;
+  width: 100vw;
+  height: 5vh;
+  background-color: coral;
+}
+
+.main-home {
+  float: left;
+  width: 80vw;
+  height: 30vh;
+  background-color: cornsilk;
+}
+
+.main-topic {
+  float: left;
+  width: 20vw;
+  height: 30vh;
+  background-color: darkkhaki;
+}
+
+.main-index {
+  float: left;
+  width: 20vw;
+  height: auto;
+  background-color: darkslategrey;
+}
+
+.main-content {
+  float: left;
+  width: 80vw;
+  height: auto;
+  background-color: green;
+}
