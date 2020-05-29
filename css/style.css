@@ -9,8 +9,34 @@
 .main-option {
   float: left;
   width: 100vw;
-  height: 5vh;
+  height: 4vh;
   background-color: coral;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-optionright {
+  width: 200px;
+  height: auto;
+  margin-left: 60px;
+  padding: 10px 0px 0px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-optionleft {
+  height: auto;
+  margin-right: 60px;
+  width: 200px;
+  text-align: center;
+  line-height: normal;
+  font-size: 28px;
+}
+
+.main-logo {
+  width: 24px;
+  height: 24px;
+  background-color: green;
 }
 
 .main-home {
