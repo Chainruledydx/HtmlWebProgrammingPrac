@@ -33,17 +33,21 @@
   font-size: 28px;
 }
 
-.main-logo {
-  width: 24px;
-  height: 24px;
-  background-color: green;
-}
-
 .main-home {
   float: left;
   width: 80vw;
   height: 30vh;
   background-color: cornsilk;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-home-logic {
+  width: 230px;
+  height: 230px;
+  background-color: greenyellow;
+  margin: 20px 50px 20px 50px;
 }
 
 .main-topic {
@@ -51,6 +55,29 @@
   width: 20vw;
   height: 30vh;
   background-color: darkkhaki;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-topic-top {
+  width: 96%;
+  height: 25%;
+  margin: 7px;
+  background-color: indigo;
+  font-size: 30px;
+  line-height: normal;
+}
+
+.main-topic-bot {
+  width: 96%;
+  height: 65%;
+  margin: 7px;
+  background-color: hotpink;
+}
+
+.lili {
+  font-size: 22px;
+  margin: 10px;
 }
 
 .main-index {
