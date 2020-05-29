@@ -87,9 +87,64 @@
   background-color: darkslategrey;
 }
 
+.imsi {
+  width: 20vw;
+  height: 700px;
+}
+
 .main-content {
   float: left;
   width: 80vw;
   height: auto;
   background-color: green;
+}
+
+.main-content-container {
+  float: left;
+  width: 40em;
+  height: 40em;
+  border: 2px solid black;
+  margin: 45px;
+}
+
+.m-c-c-img {
+  float: left;
+  width: 85%;
+  height: 60%;
+  background-color: indigo;
+  margin: 20px 20px 10px 45px;
+}
+
+.m-c-c-title {
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  height: 10%;
+  background-color: ivory;
+  margin: 20px 20px 10px 45px;
+}
+
+.m-c-c-ttl {
+  height: 100%;
+  width: 20%;
+  background-color: lightcoral;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.m-c-c-star {
+  height: 100%;
+  width: 20%;
+  background-color: lightcoral;
+  line-height: 10px;
+  text-align: center;
+}
+
+.m-c-c-discrp {
+  float: left;
+  width: 85%;
+  height: 15%;
+  background-color: lawngreen;
+  margin: 20px 20px 10px 45px;
 }
