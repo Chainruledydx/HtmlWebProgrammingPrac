@@ -127,7 +127,7 @@
 
 .m-c-c-ttl {
   height: 100%;
-  width: 20%;
+  width: auto;
   background-color: lightcoral;
   font-size: 26px;
   font-weight: 600;
@@ -135,10 +135,11 @@
 
 .m-c-c-star {
   height: 100%;
-  width: 20%;
+  width: auto;
   background-color: lightcoral;
   line-height: 10px;
-  text-align: center;
+  text-align: right;
+  font-size: 24px;
 }
 
 .m-c-c-discrp {
