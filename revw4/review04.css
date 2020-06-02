@@ -1,0 +1,6 @@
+@import "../css/reset.css";
+@import "../css/reviewall.css";
+
+.review-image {
+  background-image: url("../source/img/review04.jpg");
+}

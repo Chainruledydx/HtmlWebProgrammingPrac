@@ -1,0 +1,56 @@
+@import "./main.css";
+
+.review {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  height: auto;
+  border-left: 2px solid gray;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-top {
+  width: 70%;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  margin: 15px;
+  font-size: 36px;
+  font-weight: 600;
+  border-bottom: 2px solid black;
+}
+
+.review-info {
+  width: 70%;
+  height: 50px;
+  text-align: right;
+}
+
+.review-naiyo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  height: auto;
+  padding: 20px;
+  line-height: 20px;
+  margin-bottom: 50px;
+}
+
+.review-last {
+  width: 70%;
+  height: auto;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.reimag {
+  margin: 20px 0px 20px 0px;
+}
+
+.side {
+  margin: 10px 10px 20px 10px;
+  font-weight: 600;
+}
